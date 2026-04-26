@@ -21,9 +21,6 @@ namespace Modbus
 				case ModbusFunctionCode.READ_COILS:
 					return new ReadCoilsFunction(commandParameters);
 
-				case ModbusFunctionCode.READ_DISCRETE_INPUTS:
-					return new ReadDiscreteInputsFunction(commandParameters);
-
 				case ModbusFunctionCode.READ_INPUT_REGISTERS:
 					return new ReadInputRegistersFunction(commandParameters);
 

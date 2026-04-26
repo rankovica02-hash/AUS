@@ -140,9 +140,6 @@ namespace dCom.ViewModel
 		{
 			switch (c.RegistryType)
 			{
-				case PointType.DIGITAL_INPUT:
-					return new DigitalInput(c, processingManager, this, configuration, i);
-
 				case PointType.DIGITAL_OUTPUT:
 					return new DigitalOutput(c, processingManager, this, configuration, i);
 
